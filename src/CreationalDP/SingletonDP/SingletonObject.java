@@ -8,7 +8,7 @@ public class SingletonObject {
 
     private SingletonObject (){};
 
-    public  static SingletonObject getInstance(){
+    public static SingletonObject getInstance(){
         return instance;
     }
 
