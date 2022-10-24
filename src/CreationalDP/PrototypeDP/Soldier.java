@@ -108,6 +108,8 @@ public class Soldier implements Cloneable{
         isAvailableForWar = availableForWar;
     }
 
+    // ********* Getter Setter  END ****************
+
     @Override
     public Soldier clone() {
         Soldier soldier = null;
@@ -121,6 +123,5 @@ public class Soldier implements Cloneable{
 
         return soldier;
     }
-    // ********* Getter Setter  END ****************
 
 }

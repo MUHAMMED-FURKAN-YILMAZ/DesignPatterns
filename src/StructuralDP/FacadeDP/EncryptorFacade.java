@@ -4,8 +4,8 @@ public class EncryptorFacade {
 
     // EncryptorFacade class'indan sadece o methoda ulasim istedik
     private AESEncryptor aesEncryptor = new AESEncryptor();
-    public SHAEncryptor shaEncryptor = new SHAEncryptor();
-    public MD5Encryptor md5Encryptor = new MD5Encryptor();
+    private SHAEncryptor shaEncryptor = new SHAEncryptor();
+    private MD5Encryptor md5Encryptor = new MD5Encryptor();
 
     public void encrypt(String text, EncType encType){
         switch (encType){
